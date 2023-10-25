@@ -1,11 +1,13 @@
-import Header from "./components/Header.js";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<Header />
+				<Navbar />
 			</header>
+			<Home />
 		</div>
 	);
 }
